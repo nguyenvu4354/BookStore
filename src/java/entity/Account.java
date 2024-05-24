@@ -60,5 +60,9 @@ public class Account {
     public String toString() {
         return "Account{" + "a_id=" + a_id + ", usename=" + usename + ", password=" + password + ", position=" + position + '}';
     }
+
+    public int getAccount_id() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }
